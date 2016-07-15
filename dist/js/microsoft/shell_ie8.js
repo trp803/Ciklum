@@ -1,0 +1,1 @@
+window.msCommonShellIE8 = { IE8: true }

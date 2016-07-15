@@ -1,0 +1,32 @@
+@mixin clearfix() {
+	&:before,
+	&:after {
+		content: "";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+;
+@mixin boxshadow() {
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+@mixin spriteImg($height, $width, $x, $y) {
+	display: inline-block;
+	vertical-align: middle;
+	height: $height;
+	width: $width;
+	background-image: url('../img/global-s116e8c6936.png');
+	background-position: $x $y;
+	background-repeat: no-repeat;
+}
+@mixin transition($time) {
+	-moz-transition: background $time ease-out;
+	-o-transition: background $time ease-out;
+	-webkit-transition: background $time ease-out;
+	transition: background $time ease-out;
+	transition: background $time ease-out;
+}
