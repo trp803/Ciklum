@@ -13,6 +13,11 @@ Ciklum JavaScript Internship
 * Oculus: используйте специальных предложений (внизу страницы, перед футером)
 * Apple: используйте их футер
 
+ ### Исходный код
+
+* Исходный код в папке _app_
+* Релиз в _dist_
+
 [![demo](http://s019.radikal.ru/i642/1607/3e/02b404d3d164.png)]
 
 * Страница адаптивна, проверял через browsersync
@@ -24,7 +29,4 @@ Ciklum JavaScript Internship
 
 [![demo](http://s019.radikal.ru/i616/1607/d1/6a9af49ef40f.png)]
 
-### Исходный код
 
-* Исходный код в папке _app_
-* Релиз в _dist_
